@@ -1,0 +1,39 @@
+.intro {
+  background: url("../img/header.jpg")no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  margin-top: -56px;
+}
+
+.about, .projects {
+  height: 100%;
+}
+
+html, body{
+  height: 100%;
+}
+
+.navbar {
+  font-family: 'Merriweather', serif;
+  background-color: transparent;
+}
+
+.navbar-nav>li>a:hover{
+  color:#1C2127;
+}
+
+.collapse.in{
+  background-color:#1C2127 !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus
+.spacer{
+   background-color: #1C2127;
+}
+
+
+.intro-text {
+  color: white;
+  font-size: 40px;
+  font-family: 'Merriweather', serif;
+}
