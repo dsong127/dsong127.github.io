@@ -2,15 +2,17 @@
   background: url("../img/header.jpg")no-repeat center center;
   background-size: cover;
   height: 100%;
-  margin-top: -56px;
+  /* margin-top: -56px; */
 }
 
 .about, .projects {
   height: 100%;
+  position: relative;
 }
 
 html, body{
   height: 100%;
+  background-color: black;
 }
 
 .navbar {
@@ -31,9 +33,24 @@ html, body{
    background-color: #1C2127;
 }
 
+.vertical-center{
+  margin-left: 50px;
+  margin-right: 50px;
+  position: absolute;
+  top:50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
-.intro-text {
+
+.main-text {
   color: white;
-  font-size: 40px;
+  font-size: 35px;
+  font-family: 'Merriweather', serif;
+}
+
+.main-text-2 {
+  color: white;
+  font-size: 20px;
   font-family: 'Merriweather', serif;
 }
