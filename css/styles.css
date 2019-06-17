@@ -3,7 +3,7 @@
 }
 
 #about {
-  padding-top: 300px;
+  margin-top: 300px;
   background-color: #ECECEC;
 }
 
@@ -123,5 +123,35 @@ body{
   border-color: rgba(100,100,2300,0.8);
 }
 
-.white-font{
+.contact-footer {
+  padding: 40px 0;
+  background-color: #ECECEC;
+}
+
+.contact-footer a {
+  color: #333;
+}
+
+.contact-footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.contact-footer .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+.contact-footer #social-gh:hover, #social-em:hover, #social-li:hover{
+  color: #f39c12;
+}
+
+.contact-footer .container {
+  text-align: center;
 }
