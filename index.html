@@ -10,16 +10,17 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="https://kit.fontawesome.com/4eac678539.js"></script>
     <!-- <script src="js/navFunction.js"></script> -->
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/bootstrap-social.css" />
 
     <title>Daniel Song</title>
   </head>
 
   <header>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <div class="container">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -46,45 +47,136 @@
 
   <body>
     <div class="intro" id="intro">
-      <!-- <div class="container h-100 d-flex align-items-center"> -->
-      <div class="vertical-center">
+      <div class="container">
         <h1 class="main-text">Hey, I'm Daniel</h1>
+        <p>&nbsp;I am a masters student at Portland State University</p>
       </div>
     </div>
 
-    <div class="about" id="about">
-      <div class="vertical-center">
-        <h1 class="main-text">I am a grad student at Portland State University getting my masters in Computer Science.</h1>
-        <h2 class="main-text-2">I enjoy coding while chugging my coffee.</h2>
-        <br>
-        <h2 class="main-text-2">I like data.</h2>
-        <br>
-        <h2 class="main-text-2">Python, Swift, and C++ </h2>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h3 class="main-text-2">Apparently I like black and white a little too much lol. </h3>
+    <div id="about">
 
-      </div>
-    </div>
-
-    <div class="projects" id="projects">
-      <div class="vertical-center20">
-        <h1 class="main-text">Here are some projects I worked on in my classes</h1>
-        <br>
-        <br>
-        <h2 class="main-text-2">Check 'em out:</h2>
-      </div>
-      <div class="container container-projects">
-        <div class="row row-top-border">
-          <a class="main-text-2" href="https://github.com/dsong127/8queens">8 Queens using Genetic Algorithm</a>
-
-        </div>
-        <div class="row row-top-border">
-          <a class="main-text-2" href="https://github.com/dsong127/MachineLearning">Machine Learning Algorithms</a>
+      <div class="container">
+        <div style="margin-bottom:100px;">
+          <h class="header-text">About me</h>
+          <p class="about-me-text">
+            I'm a Computer Science graduate student at Portland State University.
+            <br>
+            <br>
+            I enjoy:
+            <ul style="list-style-type:none; line-height: 30px;">
+              <li >Trying and learning new things.</li>
+              <li>Coding while chugging my coffee.</li>
+              <li>Web / iOS development, machine learning.</li>
+              <li>Chillin', hiking, music</li>
+            </ul>
+          </p>
         </div>
       </div>
+
+        <div class="container" id="skills" style="align-items: flex-end;">
+          <h class="header-text">Things I can do</h>
+          <div class="row" style="margin-top:30px;">
+            <div class="col-3" style="background-color: #ECECEC;line-height: 30px;">
+              <h>
+                  <b>Languages</b>
+                  <br>
+                  <br>
+              </h>
+              <p>
+                Swift
+                <br>
+                Python
+                <br>
+                JavaScript
+                <br>
+                C++
+              </p>
+            </div>
+            <div class="col-3" style="background-color: #ECECEC;line-height: 30px;">
+              <h>
+                <b>Other tools</b>
+                <br>
+                <br>
+              </h>
+              <p>
+                Node.js, Express, jQuery, REST
+                <br>
+                Numpy, Pandas, Seaborn, Keras
+                <br>
+                UIKit, Alamofire
+                <br>
+                SQL
+                <br>
+                Good with dogs
+                <br>
+                Can run a mile under 11 minutes
+              </p>
+            </div>
+          </div>
+
+        </div>
     </div>
+
+    <div id="projects">
+      <div class="container">
+        <h class="header-text">Projects</h>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="project-art1">
+              <div class="project-description">
+                <h><b>8 Queens Genetic Algorithm</b></h>
+                <br>
+                <br>
+                <p>
+                  Solving the 8 queens puzzle using genetic algorithm
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-6">
+            <div class="project-art2">
+              <div class="project-description">
+                <h><b>Music discovery</b></h>
+                <br>
+                <br>
+                <p>
+                  Image + Google Vision = New Spotify music
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="project-art3">
+              <div class="project-description">
+                <h><b>Machine Learning Algorithms</b></h>
+                <br>
+                <br>
+                <p>
+                  Various ML algorithm implementaitons
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div>
+              <div class="project-art4">
+                <div class="project-description">
+                  <h><b>Find Beacons</b></h>
+                  <br>
+                  <br>
+                  <p>
+                    iPhone app for finding lost items using iBeacons
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div >
+
   </body>
 </html>
