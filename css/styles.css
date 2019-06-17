@@ -101,12 +101,27 @@ body{
 }
 
 .project-description {
-  background-color: rgba(135,136,166, 0.9);
+  background-color: rgba(35,40,46,0.8);
   color: rgba(255,255,255,0.8);
 
   text-align: center;
 
   padding: 10px;
   height: 40%;
-  width: 60%;
+  width: 80%;
+}
+.purple-bg{
+  background-color: rgba(100,100,230,0.8);
+  border-color: rgba(100,100,2300,0.8);
+  color: rgba(255,255,255,0.8);
+  padding: 0;
+  width: 80%;
+}
+
+.purple-bg:hover {
+  background-color: rgba(100,100,230,0.8);
+  border-color: rgba(100,100,2300,0.8);
+}
+
+.white-font{
 }
