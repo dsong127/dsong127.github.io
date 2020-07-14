@@ -143,11 +143,6 @@ p.lead {
   outline-color: #6C757C;
 }
 
-#sideNav:active a{
-    color:#F38A8A;
-    border-bottom:3px solid #F38A8A;
-}
-
 @media (min-width: 992px) {
   #about, #experience, #education, #skills, #interests {
     width: calc(100% - 17rem);
